@@ -1,0 +1,236 @@
+[
+  {
+    "branchName": "Bristol",
+    "customers": [
+      {
+        "firstName": "Alice",
+        "lastName": "Smith",
+        "dateOfBirth": "1985-03-22",
+        "email": "alice@gmail.com",
+        "hasCurrentAccount": false,
+        "hasSavingsAccount": false,
+        "pin": 1234
+      },
+      {
+        "firstName": "Bob",
+        "lastName": "Johnson",
+        "dateOfBirth": "1978-11-12",
+        "email": "bob@gmail.com",
+        "hasCurrentAccount": true,
+        "hasSavingsAccount": false,
+        "pin": 5678,
+        "accounts": {
+          "currentAccount": {
+            "accountNumber": 12345678,
+            "accountType": "Current Account",
+            "balance": 1000.0,
+            "withdraw": true,
+            "deposit": true,
+            "transfer": true
+          }
+        }
+      },
+      {
+        "firstName": "Paul",
+        "lastName": "Tucker",
+        "dateOfBirth": "1970-09-02",
+        "email": "paul@gmail.com",
+        "hasCurrentAccount": true,
+        "hasSavingsAccount": false,
+        "currentAccount": {
+          "accountNumber": 58079362,
+          "accountType": "Current Account",
+          "balance": 0.0,
+          "withdraw": true,
+          "deposit": true,
+          "transfer": true
+        },
+        "pin": "2169"
+      },
+      {
+        "firstName": "J",
+        "lastName": "T",
+        "dateOfBirth": "0",
+        "email": "0",
+        "hasCurrentAccount": true,
+        "hasSavingsAccount": true,
+        "currentAccount": {
+          "accountNumber": 34070527,
+          "accountType": "Current Account",
+          "balance": 0.0,
+          "withdraw": true,
+          "deposit": true,
+          "transfer": true
+        },
+        "savingsAccount": {
+          "accountNumber": 47096389,
+          "accountType": "Savings Account",
+          "balance": 0.0,
+          "withdraw": true,
+          "deposit": true,
+          "transfer": true
+        },
+        "pin": "1490"
+      }
+    ]
+  },
+  {
+    "branchName": "Coventry",
+    "customers": [
+      {
+        "firstName": "Carol",
+        "lastName": "Williams",
+        "dateOfBirth": "1990-08-15",
+        "email": "carol@gmail.com",
+        "hasCurrentAccount": true,
+        "hasSavingsAccount": true,
+        "pin": 4321,
+        "accounts": {
+          "currentAccount": {
+            "accountNumber": 98765432,
+            "accountType": "Current Account",
+            "balance": 5000.0,
+            "withdraw": true,
+            "deposit": true,
+            "transfer": true
+          },
+          "savingsAccount": {
+            "accountNumber": 56789012,
+            "accountType": "Savings Account",
+            "balance": 2000.0,
+            "withdraw": true,
+            "deposit": true,
+            "transfer": true
+          }
+        }
+      },
+      {
+        "firstName": "Dave",
+        "lastName": "Brown",
+        "dateOfBirth": "1975-04-23",
+        "email": "dave@gmail.com",
+        "hasCurrentAccount": false,
+        "hasSavingsAccount": false,
+        "pin": 7890
+      },
+      {
+        "firstName": "Kath",
+        "lastName": "Langley",
+        "dateOfBirth": "1971-01-30",
+        "email": "kath@gmail.com",
+        "hasCurrentAccount": true,
+        "hasSavingsAccount": false,
+        "currentAccount": {
+          "accountNumber": 53261162,
+          "accountType": "Current Account",
+          "balance": 0.0,
+          "withdraw": true,
+          "deposit": true,
+          "transfer": true
+        },
+        "pin": "1394"
+      }
+    ]
+  },
+  {
+    "branchName": "Edinburgh",
+    "customers": [
+      {
+        "firstName": "Eve",
+        "lastName": "Jones",
+        "dateOfBirth": "1992-12-24",
+        "email": "eve@gmail.com",
+        "hasCurrentAccount": false,
+        "hasSavingsAccount": false,
+        "pin": 2468
+      },
+      {
+        "firstName": "Frank",
+        "lastName": "Davis",
+        "dateOfBirth": "1967-06-05",
+        "email": "frank@gmail.com",
+        "hasCurrentAccount": true,
+        "hasSavingsAccount": false,
+        "pin": 1357,
+        "accounts": {
+          "currentAccount": {
+            "accountNumber": 13579246,
+            "accountType": "Current Account",
+            "balance": 3000.0,
+            "withdraw": true,
+            "deposit": true,
+            "transfer": true
+          }
+        }
+      },
+      {
+        "firstName": "Siobhaan",
+        "lastName": "Tucker",
+        "dateOfBirth": "1970-06-20",
+        "email": "von@gmail.com",
+        "hasCurrentAccount": false,
+        "hasSavingsAccount": true,
+        "savingsAccount": {
+          "accountNumber": 43020476,
+          "accountType": "Savings Account",
+          "balance": 0.0,
+          "withdraw": true,
+          "deposit": true,
+          "transfer": true
+        },
+        "pin": "3736"
+      }
+    ]
+  },
+  {
+    "branchName": "London",
+    "customers": [
+      {
+        "firstName": "Josh",
+        "lastName": "Tucker",
+        "dateOfBirth": "1994-06-12",
+        "email": "joshuaatucker@hotmail.com",
+        "hasCurrentAccount": true,
+        "hasSavingsAccount": false,
+        "pin": 3948,
+        "accounts": {
+          "currentAccount": {
+            "accountNumber": 36052219,
+            "accountType": "Current Account",
+            "balance": 2140450.16,
+            "withdraw": true,
+            "deposit": true,
+            "transfer": true
+          }
+        }
+      },
+      {
+        "firstName": "Martha",
+        "lastName": "Langley",
+        "dateOfBirth": "2001-12-17",
+        "email": "m.langley@hotmail.com",
+        "hasCurrentAccount": true,
+        "hasSavingsAccount": true,
+        "pin": 8945,
+        "accounts": {
+          "currentAccount": {
+            "accountNumber": 65432100,
+            "accountType": "Current Account",
+            "balance": 1500.0,
+            "withdraw": true,
+            "deposit": true,
+            "transfer": true
+          },
+          "savingsAccount": {
+            "accountNumber": 98765432,
+            "accountType": "Savings Account",
+            "balance": 5000.0,
+            "withdraw": true,
+            "deposit": true,
+            "transfer": true
+          }
+        }
+      }
+    ]
+  }
+]
